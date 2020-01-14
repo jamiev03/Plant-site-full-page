@@ -15,7 +15,7 @@ body {
     position: relative;
 }
 .menu {
-    width: 40%;
+    width: 60%;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -84,19 +84,48 @@ hr {
 }
 .new-plants {
     position: absolute;
-    top: 35rem;
-    right: 2rem;
+    top: 45rem;
+    right: 8rem;
     display: flex;
 }
 .left {
-    width: 240px;
+    width: 260px;
     height: 170px;
     background: white;
     margin: 10px;
+    border-radius: 20px;
+    display: flex;
 }
 .right {
-    width: 240px;
+    width: 260px;
     height: 170px;
     background: white;
     margin: 10px;
+    border-radius: 20px;
+    display: flex;
+}
+.left img {
+    width: 40%;
+    height: auto;
+    float: right;
+    margin-right: 15px;
+}
+.right img {
+    width: 40%;
+    height: auto;
+    float: right;
+    margin-right: 15px;
+    margin-top: 12px;
+}
+.new-plant-text {
+    margin-left: 15px;
+    margin-right: 20px;
+}
+.social {
+    float: right;
+    font-size: 30px;
+    color: white;
+}
+.social i {
+    margin-right: 15px;
 }
