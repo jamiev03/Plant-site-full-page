@@ -4,6 +4,33 @@ html, body {
 }
 body {
     box-sizing: border-box;
-    background: rgb(255, 252, 223);
+    background: white;
     font-family: Arial, Helvetica, sans-serif;
+}
+.wrapper {
+    width: 75%;
+    height: 100vh;
+    margin: 0 auto;
+    background: rgb(255, 252, 223);
+}
+.menu {
+    width: 40%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.menu a {
+    text-decoration: none;
+    color: #1c1c1c;
+}
+.menu .logo {
+    padding: 23px 40px;
+    background: rgb(36, 80, 0);
+    color: white;
+    font-weight: 700;
+    letter-spacing: .2rem;
+}
+img {
+    width: 30%;
+    height: auto;
 }
