@@ -33,22 +33,22 @@ body {
     margin-top: 15px;
 }
 img {
-    width: 25%;
+    width: 26%;
     height: auto;
 }
 .container {
     display: flex;
     margin-top: 6rem;
-    margin-left: 4rem;
+    margin-left: 5rem;
 }
 .text {
     width: 500px;
     align-self: center;
-    margin-left: 3rem;
+    margin-left: 4rem;
     color: #1c1c1c;
 }
 h2 {
-    font-size: 2rem;
+    font-size: 2.2rem;
 }
 hr {
     width: 495px;
