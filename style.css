@@ -8,10 +8,10 @@ body {
     font-family: Arial, Helvetica, sans-serif;
 }
 .wrapper {
-    width: 75%;
+    width: 80%;
     height: 100vh;
     margin: 0 auto;
-    background: rgb(255, 252, 223);
+    background: rgb(232, 233, 208);
 }
 .menu {
     width: 40%;
@@ -24,13 +24,52 @@ body {
     color: #1c1c1c;
 }
 .menu .logo {
-    padding: 23px 40px;
-    background: rgb(36, 80, 0);
+    padding: 25px 40px;
+    background: rgb(45, 99, 1);
     color: white;
     font-weight: 700;
     letter-spacing: .2rem;
+    margin-top: 10px;
 }
 img {
     width: 30%;
     height: auto;
+}
+.container {
+    display: flex;
+    margin-top: 6rem;
+    margin-left: 4rem;
+}
+.text {
+    width: 500px;
+    align-self: center;
+    margin-left: 2rem;
+    color: #1c1c1c;
+}
+h2 {
+    font-size: 2rem;
+}
+hr {
+    width: 495px;
+    color: #1c1c1c;
+}
+.price {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 150px;
+}
+.plus {
+    font-size: 20px;
+    background: rgb(45, 99, 1);
+    color: white;
+    padding: 20px;
+    border-radius: 50%;
+}
+.heart {
+    font-size: 20px;
+    background: rgb(255, 255, 255);
+    color: #1c1c1c;
+    padding: 20px;
+    border-radius: 50%;
 }
